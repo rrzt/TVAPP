@@ -19,7 +19,7 @@ jobs:
       # 2. 添加原仓库为上游仓库
       - name: 设置上游仓库
         run: |
-          git remote add upstream https://github.com/youhunwl/TVAPP
+          git remote add upstream https://github.com/youhunwl/TVAPP.git
           git fetch upstream
 
       # 3. 合并原仓库的更新到你的仓库
